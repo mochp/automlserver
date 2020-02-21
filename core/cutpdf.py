@@ -9,22 +9,6 @@ import os
 import shutil
 from pdf2image import convert_from_path
 
-
-    # input = {'status': 'success',
-    #         'info': '',
-    #         'type': 'jpg',
-    #         'modelId': 600,
-    #         'filePath:': '1579248027928056.jpg',
-    #         'url': 'http://39.106.51.188:8010/download/pic_sifang/1579248027928056.jpg'}
-
-    # out = {'status': 'success',
-    #         'info': '',
-    #         'type': 'jpg',
-    #         'modelId': 600,
-    #         'filePath:': '1579248027928056.jpg',
-    #         'filePathList': [{'1579248027928056.jpg'}],
-    #         'url': 'http://39.106.51.188:8010/download/pic_sifang/1579248027928056.jpg'}
-
 def cutpdf(obj,cutpath):
     if obj['status']=='failture':
         return obj
