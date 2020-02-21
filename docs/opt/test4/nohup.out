@@ -1,0 +1,103 @@
+Traceback (most recent call last):
+  File "server0.py", line 55, in <module>
+    main()
+  File "server0.py", line 52, in main
+    tornado.ioloop.IOLoop.current().start()
+  File "/usr/local/anaconda/lib/python3.6/site-packages/tornado/ioloop.py", line 863, in start
+    event_pairs = self._impl.poll(poll_timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "server0.py", line 55, in <module>
+    main()
+  File "server0.py", line 52, in main
+    tornado.ioloop.IOLoop.current().start()
+  File "/usr/local/anaconda/lib/python3.6/site-packages/tornado/ioloop.py", line 863, in start
+    event_pairs = self._impl.poll(poll_timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "server0.py", line 55, in <module>
+    main()
+  File "server0.py", line 52, in main
+    tornado.ioloop.IOLoop.current().start()
+  File "/usr/local/anaconda/lib/python3.6/site-packages/tornado/ioloop.py", line 863, in start
+    event_pairs = self._impl.poll(poll_timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "server0.py", line 55, in <module>
+    main()
+  File "server0.py", line 51, in main
+    server.start(0)  
+  File "/usr/local/anaconda/lib/python3.6/site-packages/tornado/tcpserver.py", line 221, in start
+    process.fork_processes(num_processes)
+  File "/usr/local/anaconda/lib/python3.6/site-packages/tornado/process.py", line 155, in fork_processes
+    pid, status = os.wait()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "server0.py", line 55, in <module>
+    main()
+  File "server0.py", line 52, in main
+    tornado.ioloop.IOLoop.current().start()
+  File "/usr/local/anaconda/lib/python3.6/site-packages/tornado/ioloop.py", line 863, in start
+    event_pairs = self._impl.poll(poll_timeout)
+KeyboardInterrupt
+PING www.a.shifen.com (220.181.38.149) 56(84) bytes of data.
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=1 ttl=54 time=4.61 ms
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=2 ttl=54 time=4.64 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 4.618/4.631/4.645/0.069 ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (185.216.140.186) 1.86ms
+PING www.a.shifen.com (220.181.38.149) 56(84) bytes of data.
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=1 ttl=54 time=4.61 ms
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=2 ttl=54 time=4.62 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 4.610/4.618/4.626/0.008 ms
+PING www.a.shifen.com (220.181.38.150) 56(84) bytes of data.
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=1 ttl=54 time=3.74 ms
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=2 ttl=54 time=3.76 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 3.748/3.754/3.761/0.061 ms
+PING www.a.shifen.com (220.181.38.150) 56(84) bytes of data.
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=1 ttl=54 time=3.74 ms
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=2 ttl=54 time=3.77 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 3.744/3.760/3.776/0.016 ms
+PING www.a.shifen.com (220.181.38.149) 56(84) bytes of data.
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=1 ttl=54 time=4.61 ms
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=2 ttl=54 time=4.62 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 4.611/4.619/4.627/0.008 ms
+PING www.a.shifen.com (220.181.38.150) 56(84) bytes of data.
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=1 ttl=54 time=3.82 ms
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=2 ttl=54 time=3.77 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 3.772/3.799/3.827/0.067 ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 1.48ms
+PING www.a.shifen.com (220.181.38.150) 56(84) bytes of data.
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=1 ttl=54 time=3.73 ms
+64 bytes from 220.181.38.150 (220.181.38.150): icmp_seq=2 ttl=54 time=3.75 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 3.732/3.742/3.753/0.062 ms
+WARNING:tornado.access:405 CONNECT ip.ws.126.net:443 (222.186.19.221) 0.81ms
+PING www.a.shifen.com (220.181.38.149) 56(84) bytes of data.
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=1 ttl=54 time=4.61 ms
+64 bytes from 220.181.38.149 (220.181.38.149): icmp_seq=2 ttl=54 time=4.65 ms
+
+--- www.a.shifen.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 4.612/4.635/4.659/0.072 ms
+WARNING:tornado.access:405 CONNECT ip.ws.126.net:443 (222.186.19.221) 0.44ms
+WARNING:tornado.access:404 GET http://www.baidu.com/cache/global/img/gs.gif (80.82.70.187) 0.89ms
