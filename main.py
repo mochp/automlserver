@@ -1,8 +1,8 @@
 from __future__ import absolute_import, unicode_literals
 from celery import Celery
 
-app = Celery('automl', broker="amqp://",
-             backend="rpc://")
+app = Celery('automl', broker="amqp://apabi:10NsS2mM@47.94.226.184:5672//",
+             backend="rpc://apabi:10NsS2mM@47.94.226.184:5672//")
 
 # Optional configuration, see the application user guide
 app.conf.update(
